@@ -14,7 +14,7 @@
 - [Contributors](#contributors)
 
 ## Overview
-*Caved-In* integrates a Pygame-based game interface with hardware inputs from a sensor-equipped breadboard. The player controls the character’s movement by tilting the breadboard, dodging rocks that fall from the top of the screen. The game leverages SIMD for processing rock fall dynamics and collision checks efficiently, ensuring a smooth experience on the Raspberry Pi.
+*Caved-In* integrates a Pygame-based game interface with hardware inputs from a sensor-equipped breadboard. The player controls the character’s movement by tilting the breadboard, dodging rocks that fall from the top of the screen.
 
 ## Features
 - Real-time interaction using sensors on a breadboard connected to Raspberry Pi
