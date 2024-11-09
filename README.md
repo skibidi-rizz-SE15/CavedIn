@@ -72,5 +72,5 @@
 
 ## Contributors
 - **[66011231 Sorasich Lertwerasirikul]** - Lead Developer (Game mechanics, sensor integration)
-- **[66011149 Phatthadol Sornplang]** - Hardware Specialist (Breadboard setup, sensor wiring, hardware welder)
+- **[66011149 Phatthadon Sornplang]** - Hardware Specialist (Breadboard setup, sensor wiring, hardware welder)
 - **[66011192 Rachata Phondi]** - Developer (Fixing Buggy things)
