@@ -56,7 +56,7 @@
 
 ## Project Structure
 - `game.py`: Main game script
-- `subway_surf.py`: Background music for Buzzer
+- `notes.py, subway_surf.py`: Background music for Buzzer
 - `README.md`: Project documentation
 - `assets/`: Contains game assets (images, sounds, etc.)
 
