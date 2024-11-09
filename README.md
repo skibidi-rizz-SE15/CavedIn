@@ -58,7 +58,7 @@
 - `game.py`: Main game script
 - `notes.py, subway_surf.py`: Background music for Buzzer
 - `README.md`: Project documentation
-- `assets/`: Contains game assets (images, sounds, etc.)
+- `assets/`: Contains game assets (images, etc.)
 
 ## Technologies Used
 - **Pygame**: For graphics and game development
