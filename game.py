@@ -29,8 +29,6 @@ def music(stop_event):
 
             time.sleep(note_duration * 0.7)  # Delay between notes
 
-
-
 def initialize_sensor(retries=3, delay=1):
     for attempt in range(retries):
         try:    
@@ -249,7 +247,6 @@ controller = GameController()
 clock = pygame.time.Clock()
 game_state = START_SCREEN
 
-# play_start = multiprocessing.Process(target=play_start_melody)
 stop_event = multiprocessing.Event()
 music_process = multiprocessing.Process(target=music, args=(stop_event,))
 
@@ -257,7 +254,7 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-            # music_process.terminate()
+            music_process.terminate()
             GPIO.cleanup()
         elif event.type == pygame.KEYDOWN:
             if (game_state == START_SCREEN or game_state == END_SCREEN) and event.key == pygame.K_SPACE: 

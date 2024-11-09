@@ -53,11 +53,9 @@ def play_tone(frequency, duration):
         period = 1.0 / frequency
         delay_time = period / 2  # Half the period for high signal
         for _ in range(int(duration / period)):
-            # pwm.ChangeDutyCycle(100)
             GPIO.output(BUZZER_PIN, True)
             time.sleep(delay_time)
             GPIO.output(BUZZER_PIN, False)
-            # pwm.ChangeDutyCycle(0)
             time.sleep(delay_time)
 
 def play_start_melody():
